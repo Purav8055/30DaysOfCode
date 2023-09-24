@@ -1,0 +1,7 @@
+Step 1 : Preprocessing - in this phase, the preprocessor (usually cpp) processes the source code to handle preprocessor directives (e.g., #include, #define, #ifdef, etc.).
+It performs macro substitution and file inclusion, creating a modified source code file.
+
+Step 2 : Compilation - Source code converted into assembly code.
+Step 3 : Assembly - Assembly code converted into Machine code and an object file(.o) is generated.
+Step 4 : Linking - The object file is linked with various other object files and libraries to generate an exe file.
+Step 5 : Execution - The exe file is executed.
