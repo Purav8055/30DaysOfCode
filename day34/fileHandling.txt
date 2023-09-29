@@ -1,0 +1,15 @@
+fopen is used to open a file. it takes two arguments, first is file name like 1.txt and other is file mode like "w" or "r".
+Different file modes:-
+"r" (Read Mode): This mode is used when you want to open a file for reading. In "read" mode, you can only read data from the file, and if the file does not exist, the fopen() function will return NULL.
+
+"w" (Write Mode): This mode is used when you want to open a file for writing. In "write" mode, if the file does not exist, it will be created. If the file already exists, its contents will be truncated (i.e., deleted), and you can write new data to it.
+
+There are several other file modes in C that you can use depending on your specific needs:
+
+"a" (Append Mode): This mode is used when you want to open a file for writing but without truncating the existing content. If the file exists, the file pointer is positioned at the end of the file, allowing you to append data to it. If the file doesn't exist, it is created.
+
+"r+" (Read/Write Mode): This mode allows you to open a file for both reading and writing. You can read from and write to the file. If the file doesn't exist, fopen() will return NULL.
+
+"w+" (Write/Read Mode): This mode is similar to "r+", but it opens the file for writing and reading. If the file doesn't exist, it will be created. If it does exist, its contents will be truncated.
+
+"a+" (Append/Read Mode): This mode allows you to open a file for both reading and writing, but it doesn't truncate the existing content. If the file exists, the file pointer is positioned at the end of the file. If it doesn't exist, it is created.
